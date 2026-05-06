@@ -1,0 +1,107 @@
+:root {
+  --vermelho: #ff0000;
+  --amarelo: #cab355;
+  --azul: #1e3a8a;
+  --verde: #25D366;
+  --fundo: #121212;
+  --card: #1e1e1e;
+  --texto: #ffffff;
+  --texto-sec: #cccccc;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: var(--fundo);
+  color: var(--texto);
+}
+
+/* TOPO */
+.topo {
+  background: var(--amarelo);
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  width: 140px;
+  display: block;
+  margin: auto;
+}
+
+/* SLOGAN */
+.slogan {
+  margin-top: 10px;
+  font-size: 125x;
+  color: var(--vermelho);
+  font-weight: bold;
+}
+
+/* INTRO */
+.intro {
+  text-align: center;
+  padding: 10px;
+}
+
+/* CONTAINER */
+.container {
+  padding: 10px;
+  max-width: 600px;
+  margin: auto;
+}
+
+/* CARD */
+.item {
+  background: var(--card);
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+/* INGREDIENTES */
+.ingredientes {
+  color: var(--texto-sec);
+}
+
+/* PREÇO */
+.preco {
+  color: var(--amarelo);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* BOTÃO */
+.btn {
+  display: block;
+  margin-top: 10px;
+  padding: 12px;
+  background: var(--verde);
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 15px;
+  color: var(--texto-sec);
+}
+
+.filtros {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.filtros button {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: var(--amarelo);
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
